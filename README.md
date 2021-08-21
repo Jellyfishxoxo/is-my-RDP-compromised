@@ -1,3 +1,6 @@
+## DISCLAIMER
+Please take in mind, this script is not written by powershell professional. Whole script is just few basic scipts connected together into one script file.
+The idea of this script is to help people to find all required informations to identify if computer was compromised via RDP without any deep knowledge of powershell. I have tried to build this as noob friendly as I could. If you find any errors in the code or you have anything that could help to improve the script, I will be very thankful.
 
 ## USAGE
 
