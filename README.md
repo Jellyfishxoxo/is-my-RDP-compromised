@@ -50,7 +50,7 @@ qprocess /id:1 | Out-File -FilePath c:\Users\$env:username\Desktop\logfiles\3_RD
 qprocess /id:2 | Out-File -FilePath c:\Users\$env:username\Desktop\logfiles\3_RDP_Session2.txt;
 qprocess /id:3 | Out-File -FilePath c:\Users\$env:username\Desktop\logfiles\3_RDP_Session3.txt;
 ```
-__OS info + account priviledges__
+__OS info + account privileges__
 >4_OSinfo.txt 5_Usersandgroups 5_Usersandgroups2 6_admin_members.csv
 ```
 (Get-WMIObject win32_operatingsystem).name, (Get-WmiObject Win32_OperatingSystem).OSArchitecture, (Get-WmiObject Win32_OperatingSystem).CSName  | Out-File -FilePath c:\Users\$env:username\Desktop\logfiles\4_OSinfo.txt;
